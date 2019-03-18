@@ -1,9 +1,9 @@
 <h1>Your cart</h1>
 
 <h3>Current contents</h3>
-<% @cart.each do |product| %>
+<%= @carts.each do |product| %>
 <p>
-  <% product %>
+  <%= product %>
 </p>
 <% end %>
 
